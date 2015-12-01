@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30626.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAndAlgorithms", "DSAndAlgorithms\DSAndAlgorithms.csproj", "{BBD4279D-A762-49C8-915C-7A33B5916F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAndAlgorithms.Tests", "DSAndAlgorithms.Tests\DSAndAlgorithms.Tests.csproj", "{C79E444D-A65C-4CFD-A588-BC227F86508D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{A27FB368-2C5B-45ED-ADC1-F29373681F45}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://saurabhnijhawan.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DSAndAlgorithms\\DSAndAlgorithms.csproj
+		SccProjectName1 = DSAndAlgorithms
+		SccLocalPath1 = DSAndAlgorithms
+		SccProjectUniqueName2 = DSAndAlgorithms.Tests\\DSAndAlgorithms.Tests.csproj
+		SccProjectName2 = DSAndAlgorithms.Tests
+		SccLocalPath2 = DSAndAlgorithms.Tests
+		SccProjectUniqueName3 = ConsoleApplication\\ConsoleApplication.csproj
+		SccProjectName3 = ConsoleApplication
+		SccLocalPath3 = ConsoleApplication
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBD4279D-A762-49C8-915C-7A33B5916F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD4279D-A762-49C8-915C-7A33B5916F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD4279D-A762-49C8-915C-7A33B5916F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD4279D-A762-49C8-915C-7A33B5916F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79E444D-A65C-4CFD-A588-BC227F86508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79E444D-A65C-4CFD-A588-BC227F86508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79E444D-A65C-4CFD-A588-BC227F86508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79E444D-A65C-4CFD-A588-BC227F86508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27FB368-2C5B-45ED-ADC1-F29373681F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27FB368-2C5B-45ED-ADC1-F29373681F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27FB368-2C5B-45ED-ADC1-F29373681F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27FB368-2C5B-45ED-ADC1-F29373681F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

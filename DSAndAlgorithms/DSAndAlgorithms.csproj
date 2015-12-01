@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBD4279D-A762-49C8-915C-7A33B5916F73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSAndAlgorithms</RootNamespace>
+    <AssemblyName>DSAndAlgorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Backtracking\SudokuSolver.cs" />
+    <Compile Include="Algorithms\DivideAndConquor\SelectionProblem.cs" />
+    <Compile Include="Algorithms\DynamicProgramming\CoinChangeProblem.cs" />
+    <Compile Include="Algorithms\Matrixes\MatrixAlgorithms.cs" />
+    <Compile Include="Algorithms\Recursion\FibonacciSeriesGenerator.cs" />
+    <Compile Include="Algorithms\Recursion\RecursionAlgorithms.cs" />
+    <Compile Include="Algorithms\Sorting\SelectionSorter.cs" />
+    <Compile Include="Algorithms\Sorting\TestSorter.cs" />
+    <Compile Include="Algorithms\Trees\TreeAlgorithms.cs" />
+    <Compile Include="DataStructures\Arrays\ArrayAlgorithms.cs" />
+    <Compile Include="Algorithms\BitManipulation\Bitmanipulator.cs" />
+    <Compile Include="Algorithms\DynamicProgramming\LCS.cs" />
+    <Compile Include="Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
+    <Compile Include="DataStructures\Graphs\Edge.cs" />
+    <Compile Include="DataStructures\Graphs\Graph.cs" />
+    <Compile Include="DataStructures\Graphs\Vertex.cs" />
+    <Compile Include="DataStructures\Heaps\Heaps.cs" />
+    <Compile Include="DataStructures\Heaps\MinHeap.cs" />
+    <Compile Include="DataStructures\Heaps\MaxHeap.cs" />
+    <Compile Include="DataStructures\InbuiltCollection\Examples.cs" />
+    <Compile Include="DataStructures\LinkedList\DoublyLinkedList.cs" />
+    <Compile Include="DataStructures\LinkedList\DoublyLinkedListAlgorithms.cs" />
+    <Compile Include="DataStructures\LinkedList\DoublyLinkedListNode.cs" />
+    <Compile Include="DataStructures\LinkedList\LinkedList.cs" />
+    <Compile Include="Algorithms\LinkedList\LinkedListAlgorithms.cs" />
+    <Compile Include="DataStructures\LinkedList\Node.cs" />
+    <Compile Include="Algorithms\Numbers\Numbers.cs" />
+    <Compile Include="Algorithms\RegularExpressions\RegularExpressions.cs" />
+    <Compile Include="Algorithms\Search\BinarySearch.cs" />
+    <Compile Include="DataStructures\Sets\HashSet.cs" />
+    <Compile Include="Algorithms\Sorting\CountingSorter.cs" />
+    <Compile Include="Algorithms\Sorting\HeapSorter.cs" />
+    <Compile Include="DataStructures\InbuiltCollection\HowToArrays.cs" />
+    <Compile Include="DataStructures\InbuiltCollection\Yield.cs" />
+    <Compile Include="Algorithms\Sorting\InsertionSorter.cs" />
+    <Compile Include="ProblemSolving\Codility\TapeEquilibriumSolver.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\Conference.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\ConferenceManagement.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\Program.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\Session.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\Talk.cs" />
+    <Compile Include="ProblemSolving\ThoughtWorks\Track.cs" />
+    <Compile Include="Solution.cs" />
+    <Compile Include="Algorithms\Sorting\MergeSorter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Algorithms\Sorting\QuickSorter.cs" />
+    <Compile Include="DataStructures\Sets\Set.cs" />
+    <Compile Include="DataStructures\Stacks\Node.cs" />
+    <Compile Include="DataStructures\Stacks\Stack.cs" />
+    <Compile Include="DataStructures\Stacks\StackAlgorithms.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\Anagrams.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\Combinotorics.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\KMPUtil.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\LCS.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\PrefixArray.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\StringAlgorithms.cs" />
+    <Compile Include="Algorithms\StringAlgorithms\StringRelated.cs" />
+    <Compile Include="DataStructures\Tree\Node.cs" />
+    <Compile Include="DataStructures\Tree\BinarySearchTree.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Algorithms\Backtracking\samplesudoku.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Algorithms\StringAlgorithms\enable1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
