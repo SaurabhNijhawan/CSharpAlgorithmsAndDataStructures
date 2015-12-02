@@ -20,7 +20,7 @@
 
         private static void Merge(int[] array, int left, int mid, int right)
         {
-            var B = new int[right-left];
+            var B = new int[right-left+1];
             int i, j, k;
             i = k = left;
             j = mid + 1;

@@ -90,7 +90,6 @@
     <Compile Include="ProblemSolving\ThoughtWorks\Session.cs" />
     <Compile Include="ProblemSolving\ThoughtWorks\Talk.cs" />
     <Compile Include="ProblemSolving\ThoughtWorks\Track.cs" />
-    <Compile Include="Solution.cs" />
     <Compile Include="Algorithms\Sorting\MergeSorter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Algorithms\Sorting\QuickSorter.cs" />

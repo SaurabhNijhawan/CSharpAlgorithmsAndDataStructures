@@ -10,7 +10,7 @@ namespace DSAndAlgorithms.Tests
     public class HeapSorterTests
     {
         [TestMethod]
-        public void MergeSorter_Check_Sorting_Behavior()
+        public void HeapSorter_Sort_Check_Sorting_Behavior()
         {
             int[] unsortedInts = { 6, 12, 8, 2, 9 };
             
@@ -18,11 +18,11 @@ namespace DSAndAlgorithms.Tests
         }
 
         [TestMethod]
-        public void MergeSorter_Duplicates_Test()
+        public void HeapSorter_Duplicates_Test()
         {
             int[] unsortedInts = { 6, 12, 8, 2, 9, 6 };
             
-            MergeSorter.MergeSort(unsortedInts);
+            HeapSorter.HeapSort(unsortedInts);
             
         }
     }

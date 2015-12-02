@@ -79,7 +79,6 @@
     <Compile Include="HeapTest.cs" />
     <Compile Include="RecursionAlgorithmsTests.cs" />
     <Compile Include="YieldTests - Copy.cs" />
-    <Compile Include="SolutionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DSAndAlgorithms\DSAndAlgorithms.csproj">
